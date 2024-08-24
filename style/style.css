@@ -22,35 +22,36 @@ main{
   margin: 0 auto;
 }
 
-header{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 8px;
-  background-color: black;
-  width: 100%;
-  color: white;
-  padding: 10px 0;
-  box-shadow: 0 1px 10px rgb(0 0 0 / 70%);
-}
-header .Ravengard{
-  display: flex;
-  align-items: center;
-}
-nav ul{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 25%;
-}
+  /* Estilização do cabeçalho */
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 70%);
+  }
+  header .Ravengard{
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    width: 72px;
+    height: 72px;
+  }
+  header p{
+    font-weight: bold;
+  }
 
-.logo{
-  width: 72px;
-  height: 72px;
-}
-header p{
-  font-weight: bold;
-}
+  nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25%;
+  }
 
 .titulo{
   font-size: 16px;
@@ -89,4 +90,14 @@ header p{
   .doencas tbody td:first-child, .doencas tbody td:nth-of-type(2){
     vertical-align: text-top;
   }
+  header{
+    justify-content: center;
+    flex-direction: column;
+  }
+  nav{
+    width: 80%;
+    border-top: 1px solid #ccc;
+    text-align: center;
+  }
+
 }

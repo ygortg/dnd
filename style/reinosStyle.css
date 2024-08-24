@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1d2b;
+    font-family: sans-serif;
+}
+
+#reinos {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.reino {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+}
+
+#ymirheart{
+
+}
+#ektra{
+    background-color: #000000;
+}
+#midvain{
+    background-color: #191919;
+
+}
+#alhavis{
+    background-color: #000000;
+}
+#linvontis{
+    background-color: #000000;
+}
+
+.reino:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.reino-title {
+    position: absolute;
+    bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 10px;
+}
